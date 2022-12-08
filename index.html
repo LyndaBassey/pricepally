@@ -2,162 +2,220 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pricepally</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
 </head>
 
 <body>
     <nav>
-        <div class="pricepally-logo">
-            <img src="./images/logo.png" alt="">
+        <div class="logo-container">
+            <img src="./images/logo.png" alt="" />
             <p>Pricepally</p>
         </div>
+
         <div class="nav-links">
-            <a href="">Home</a>
-            <a href="">Contact Us </a>
-            <a href="">About Us</a>
+            <a href="#">Home</a>
+            <a href="#">Contact Us </a>
+            <a href="#">About Us</a>
         </div>
-        <div class="nav-button">
-            <button>GET STARTED</button>
-        </div>
+
+        <button class="get-started-btn">GET STARTED</button>
     </nav>
 
-
     <main>
-        <div class="hero-section">
-            <h1>pricepally's
-                <span>Shopping Assistant </span>
-            </h1>
-            <p>Meet <span>April</span>, your Whatsapp shopping assistant.</p>
-            <p>You can now shop and pay for foodstuffs without leaving whatsapp.</p>
-            <button class="hero-button">ClICK HERE TO SHOP</button>
-        </div>
-        <div class="hero-image">
-            <img src="./images/hero-image.png" alt="">
-        </div>
-    </main>
+        <!-- HERO SECTION  -->
+        <div class="hero-container">
+            <div class="hero-left-container">
+                <h1>Pricepally's</h1>
+                <h1>Shopping Assistant</h1>
 
+                <div class="hero-text">
+                    <p>
+                        Meet <span class="april"> April</span>, your Whatsapp shopping
+                        assistant.
+                    </p>
+                    <p>
+                        You can now shop and pay for foodstuffs without leaving whatsapp.
+                    </p>
+                </div>
 
-    <div class="hero-section2">
-        <div>
-            <h1>With Principally Shopping Assistant,you can:</h1>
-        </div>
-        <div class="hero-section2-grid">
-            <div class="grids">
-                <img src="./images/checklist-image.png" alt="">
-                <p>Make your shopping list</p>
+                <button class="hero-button">CLICK HERE TO SHOP</button>
             </div>
-            <div class="grids">
-                <img src="./images/trolley.png" alt="">
-                <p>Add items to cart</p>
-            </div>
-            <div class="grids">
-                <img src="./images/payment-method.png" alt="">
-                <p>Make payments for orders</p>
-            </div>
-            <div class="grids">
-                <img src="./images/delivery-man.png" alt="">
-                <p>Enjoy next-day deliveries</p>
+
+            <div class="hero-right-container">
+                <img src="./images/hero-image.png" class="hero-image" alt="" />
             </div>
         </div>
-        <div class="hero-section2-button">
-            <button>GO TO APRIL</button>
+
+        <!-- FEATURES SECTION  -->
+        <div class="features-container">
+            <h3>With Pricepally Shopping Assistant, you can:</h3>
+
+            <div class="features-items-container">
+                <div class="features-items">
+                    <img src="./images/checklist-image.png" alt="" />
+                    <p>Make your shopping list</p>
+                </div>
+                <div class="features-items">
+                    <img src="./images/trolley.png" alt="" />
+                    <p>Make your shopping list</p>
+                </div>
+                <div class="features-items">
+                    <img src="./images/payment-method.png" alt="" />
+                    <p>Make your shopping list</p>
+                </div>
+                <div class="features-items">
+                    <img src="./images/delivery-man.png" alt="" />
+                    <p>Make your shopping list</p>
+                </div>
+            </div>
+
+            <button class="features-section-btn">GO TO APRIL</button>
         </div>
-    </div>
 
-
-    <div class="hero-section3">
-        <div>
+        <!-- HOW IT WORKS SECTION  -->
+        <div class="how-it-works-container">
             <h3>How does April work?</h3>
-            <p>Learn everything you need to know about Pricepally Assistant, April. <br> Enjoy easy and seamless
-                shopping
-                with
-                our whatsapp
-                bot</p>
+
+            <p>
+                Learn everything you need to know about Pricepally Assistant, April.
+                Enjoy easy and seamless shopping with our whatsapp bot
+            </p>
+
+            <div>
+                <img src="/images/vid-image.png" alt="" class="how-it-works-image" />
+            </div>
         </div>
-    </div>
-    <div>
-        <div class="hero-section4">
+
+        <!-- GUIDE SECTION  -->
+        <div class="guide-container">
             <h3>Stay in the Know!</h3>
             <p>Get your pricepally assistant running with this easy guide</p>
-        </div>
-        <div class="hero-section4-grid">
-            <div class="grids-section4">
-                <img src="/images/man-avatar.png" alt="">
-                <p>Create a new account or sign into your <br> Pricepally account with April, the <br> Pricepally
-                    Assistant, and
-                    select a city.</p>
-            </div>
-            <div class="grids-section4">
-                <img src="./images/checklist-image.png" alt="">
-                <p>List the products you wish to <br> purchase,add the products to cart, <br> and proceed to checkout!
-                </p>
-            </div>
-            <div class="grids-section4">
-                <img src="./images/payment.png" alt="">
-                <p>Pay for your items and <br> get ready to receive your orders</p>
-            </div>
-        </div>
-        <button class="hero-section4-button">GET STARTED</button>
-    </div>
-    <div class="section5">
-        <p>Affordable Grocery shopping via WhatsApp in Lagos, Abuja and Port-Harcourt
-            <a href="">CLICK HERE TO SHOP</a>
-        </p>
-    </div>
 
-    <footer>
-        <div>
-            <ul>
-                <p>Categories</p>
-                <li><a href="">Food Stuff</a></li>
-                <li><a href="">Packaged Food</a></li>
-                <li><a href="">Fruits & Nuts</a></li>
-                <li><a href="">Meat,Poultry & Seafood</a></li>
-                <li> <a href="">Oils & Spices</a></li>
-                <li><a href="">Soup & Stew ingredient</a></li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <p>Company</p>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">Refer & Earn</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Make a List</a></li>
-                <li><a href="">Help Center</a></li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <p>Policy</p>
-                <li><a href="">COVID 19 Policy</a></li>
-                <li><a href="">Return Policy</a></li>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Terms & Condition</a></li>
-            </ul>
-        </div>
-        <div>
-            <form>
-                <p>Join our mailing list & receive exclusives</p>
-                <div class="form-input-group">
-                    <input class="join-mail-input" type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
+            <div class="guide-items-container">
+                <div class="guide-item">
+                    <img src="/images/man-avatar.png" alt="" />
+                    <p>
+                        Create a new account or sign into your Pricepally account with
+                        April, the Pricepally Assistant, and select a city.
+                    </p>
                 </div>
-                <input class="join-mail-input join-mail-address-input" type="email" placeholder="Enter your email">
+                <div class="guide-item">
+                    <img src="./images/task-list.png" alt="" />
+                    <p>
+                        List the products you wish to purchase,add the products to cart,
+                        and proceed to checkout!
+                    </p>
+                </div>
+                <div class="guide-item">
+                    <img src="./images/payment.png" alt="" />
+                    <p>Pay for your items and get ready to receive your orders</p>
+                </div>
+            </div>
+
+            <button class="guide-button">GET STARTED</button>
+        </div>
+
+        <!-- BANNER  -->
+        <div class="banner-container">
+            <p>
+                Affordable Grocery shopping via WhatsApp in Lagos, Abuja and
+                Port-Harcourt
+                <a href="">CLICK HERE TO SHOP</a>
+            </p>
+        </div>
+
+        <!-- FOOTER  -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-left-container">
+                    <div>
+                        <h6>Categories</h6>
+                        <ul>
+                            <li><a href="">Food Stuff</a></li>
+                            <li><a href="">Packaged Food</a></li>
+                            <li><a href="">Fruits & Nuts</a></li>
+                            <li><a href="">Meat,Poultry & Seafood</a></li>
+                            <li><a href="">Oils & Spices</a></li>
+                            <li><a href="">Soup & Stew ingredient</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Refer & Earn</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Make a List</a></li>
+                            <li><a href="">Help Center</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-right-container">
+                    <div>
+                        <h6>Policy</h6>
+                        <ul>
+                            <li><a href="">COVID 19 Policy</a></li>
+                            <li><a href="">Return Policy</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms & Condition</a></li>
+                        </ul>
+                    </div>
+
+                    <form class="form-desktop">
+                        <p class="form-title">
+                            Join our mailing list & receive exclusives
+                        </p>
+                        <div class="form-input-group">
+                            <input class="join-mail-input" placeholder="First name" type="text" name="firstName" />
+                            <input class="join-mail-input" placeholder="Last name" type="text" name="lastName" />
+                        </div>
+                        <input class="join-mail-input join-mail-address-input" placeholder="Enter your email address"
+                            type="email" name="email" />
+                        <div class="join-mail-button-container">
+                            <button class="join-mail-button">JOIN LIST</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <form class="form-mobile">
+                <p class="form-title">Join our mailing list & receive exclusives</p>
+                <div class="form-input-group">
+                    <input class="join-mail-input" placeholder="First name" type="text" name="firstName" />
+                    <input class="join-mail-input" placeholder="Last name" type="text" name="lastName" />
+                </div>
+                <input class="join-mail-input join-mail-address-input" placeholder="Enter your email address"
+                    type="email" name="email" />
                 <div class="join-mail-button-container">
                     <button class="join-mail-button">JOIN LIST</button>
                 </div>
             </form>
-        </div>
-    </footer>
+            <div class="connect">
+                <p>Connect with us on</p>
+            </div>
+            <div class="socials">
+                <ion-icon size=large name="logo-facebook"></ion-icon>
+                <ion-icon size=large name="logo-instagram"></ion-icon>
+                <ion-icon size=large name="logo-twitter"></ion-icon>
+                <ion-icon size=large name="logo-youtube"></ion-icon>
+            </div>
+
+            <p class="copyright">© 2022 Pricepally All Rights Reserved</p>
+        </footer>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
